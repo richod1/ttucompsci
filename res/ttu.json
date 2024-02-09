@@ -1,0 +1,15 @@
+{
+	"id": "ttu",
+	"name": "Takoradi Technical University",
+	"shortName": "TTU",
+	"semester": {
+		"number": 1,
+		"start": "2024-01-12",
+		"end": "2024-04-10"
+	},
+	"examination": {
+		"start": "2024-04-11",
+		"end": "2024-04-28"
+	},
+	"emailExtensions": ["info@ttu.edu.gh"]
+}
