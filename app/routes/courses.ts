@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { ActionFunctionArgs, LoaderFunctionArgs, json } from "@remix-run/node";
 import { prisma } from "../lib/prisma.server";
 import { slugify } from "../lib/slugify";
