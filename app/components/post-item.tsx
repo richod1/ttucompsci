@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 import { Link, useLocation } from "@remix-run/react";
 import { Avatar } from "./avatar";
 import { Prisma } from "@prisma/client";

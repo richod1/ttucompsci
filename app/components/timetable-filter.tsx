@@ -95,8 +95,8 @@ function TimetableFilter({ programmes }: Props) {
 					<option value="200">L200</option>
 					<option value="300">L300</option>
 					<option value="400">L400</option>
-					<option value="500">L500</option>
-					<option value="600">L600</option>
+					{/* <option value="500">L500</option>
+					<option value="600">L600</option> */}
 				</select>
 
 				<select

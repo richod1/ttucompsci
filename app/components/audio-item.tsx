@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import clsx from "clsx";
 import React from "react";
 import { elipsizeFilename, humanizeSize } from "../lib/files";

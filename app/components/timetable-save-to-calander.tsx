@@ -4,7 +4,7 @@ import { Button } from "./button";
 import { Modal } from "./modal";
 import { Anchor } from "./anchor";
 import { useLoaderData, useParams } from "@remix-run/react";
-import { TimeTableLoader } from "~/routes/timetable_.$year.$programme.$level.$sem.$day";
+import { TimeTableLoader } from "../routes/timetable_.$year.$programme.$level.$sem.$day";
 
 function TimetableSaveToCalender() {
 	const [open, setOpen] = React.useState(false);
@@ -15,7 +15,7 @@ function TimetableSaveToCalender() {
 	const { year, programme: programmeSlug, sem, level } = useParams();
 	const url = `/downloads/timetable/${year}/${programmeSlug}/${level}/${sem}`;
 
-	const programme = programmes.find((p) => p.slug === programmeSlug);
+	const programme = programmes.find((p: { slug: string | undefined; }) => p.slug === programmeSlug);
 
 	return (
 		<>

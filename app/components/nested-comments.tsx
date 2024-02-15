@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Prisma } from "@prisma/client";
 import { useComments } from "../lib/use-comments";
 import { PostItem } from "./post-item";

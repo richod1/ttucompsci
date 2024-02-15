@@ -1,9 +1,9 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from "react";
 import { Modal } from "./modal";
 import { FieldValues, FormProvider, set, useForm } from "react-hook-form";
-import { RequestState } from "../lib/request-state";
+import { RequestState } from "~/lib/request-state";
 import clsx from "clsx";
 import { Input } from "./input";
 
