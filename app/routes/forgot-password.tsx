@@ -33,14 +33,14 @@ export const action = async ({ request }: ActionFunctionArgs) => {
 	const subdomain = process.env.SCHOOL;
 
 	const link = [
-		`https://${subdomain}.ttucompsci.so/reset-password?`,
+		`http://${subdomain}.localhost:3000/reset-password?`,
 		`email=${email}`,
 		`&token=${resetRequest.token}`,
 	].join("");
 
 	await send({
 		to: user.email,
-		from: "m@compa.so",
+		from: "ttucompsci@email-connect.cloud",
 		subject: "Reset Password | compa",
 		text: `Hi 👋🏽,\n\nYou requested to change your password. Click this link to continue: ${link}.\n\nAll the best!`,
 	});
