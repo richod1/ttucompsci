@@ -14,7 +14,7 @@ export const loader = async ({ request }: ActionFunctionArgs) => {
 };
 
 export const meta = () => {
-	return [{ title: "Resend Verification | compa" }];
+	return [{ title: "Resend Verification | ttucompsci" }];
 };
 
 export default function ResendVerification() {

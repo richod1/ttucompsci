@@ -21,7 +21,7 @@ function Navbar() {
 				<div className="col-span-2">
 					<div className="flex gap-4 items-center">
 						<a className="block shrink-0" href="/">
-							<img src="../../public/navlogo.svg" width={32} className="inline" alt="ttucompsci" />
+							<img src="../../public/sym.svg" width={32} className="inline" alt="ttucompsci" />
 						</a>
 
 						<nav>

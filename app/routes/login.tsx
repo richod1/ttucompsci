@@ -164,7 +164,7 @@ export default function Login() {
 							>
 								Create an account
 							</Link>{" "}
-							to start interacting on compa.
+							to start interacting on ttucompsci.
 						</p>
 					</form>
 				</div>

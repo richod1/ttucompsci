@@ -49,7 +49,7 @@ export const action = async ({ request }: ActionFunctionArgs) => {
 };
 
 export const meta = () => {
-	return [{ title: "Forgot Password | compa" }];
+	return [{ title: "Forgot Password | ttucompsci" }];
 };
 
 export default function ForgotPassword() {
