@@ -21,11 +21,11 @@ async function sendEmailVerification(email:string){
     }
 
     async function sendEmail(verification:EmailVerificationRequest){
-            const subdomain=process.env.SCHOOL;
+            const subdomain=process.env.EMAIL_SCHOOL //will change after getting email domain
             const {email,token}=verification;
 
             const link=[
-                `https://${subdomain}.ttucompsci.so/verify-email/?`,
+                `https://${subdomain}.compa.so/verify-email/?`,               
                 `email=${email}`,
                 `&token=${token}`,
 
@@ -33,7 +33,7 @@ async function sendEmailVerification(email:string){
 
             return await send({
                 to:verification.email,
-                from:"ttu@ttucomsci.so",
+                from:"m@compa.so",
                 subject:'Account verification | ttucompsci',
                 text:`Hi and welcome to ttucompsci,\n\nClick the following link to verify your account: ${link}.\n\nSee you!\n\n\n(You cannot reply to this email.)`,
             })
