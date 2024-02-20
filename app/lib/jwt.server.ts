@@ -1,4 +1,4 @@
-import jwt from "jsonwebtoken"
+import jwt from  "jsonwebtoken"
 
 function signUser(user:{id:number}):string{
     return jwt.sign({sub:user.id},process.env.SECRET_KEY as string);
